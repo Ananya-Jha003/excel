@@ -1,0 +1,101 @@
+ID,Full Name.1,Full Name.2,Department,Merged,Hire Date,Salary
+184,Paula,Davis,Operations,paula davis,14-03-2023 00:00,79000
+154,Ian,Hardman,Legal,ian hardman,,53000
+171,Oliver,Thompson,Legal,oliver thompson,22-06-2020 00:00,79000
+146,Laura,Garcia,Legal,laura garcia,25-08-2022 00:00,130000
+145,Robert,Wilson,It,robert wilson,,91000
+140,Michael,Davis,Other,michael davis,07-04-2016 00:00,59000
+123,Jessica,Ross,Legal,jessica ross,07-08-2021 00:00,45000
+181,Hannah,Taylor,Marketing,hannah taylor,,129000
+111,Jessica,Thomas,Legal,jessica thomas,05-12-2015 00:00,96000
+101,Grace,Zane,Legal,grace zane,25-07-2016 00:00,58000
+119,Kevin,Robinson,Sales,kevin robinson,04-03-2016 00:00,148000
+131,Nina,Sazs,Operations,nina sazs,01-09-2015 00:00,78000
+174,Charles,Paulsen,Operations,charles paulsen,02-09-2018 00:00,103000
+134,Claire,Paulsen,Other,claire paulsen,31-01-2017 00:00,121000
+191,Ian,Forstman,Finance,ian forstman,02-08-2017 00:00,137000
+105,Mike,Sazs,Marketing,mike sazs,10-08-2021 00:00,148000
+177,Jessica,Specter,It,jessica specter,23-04-2020 00:00,59000
+178,Harvey,Forstman,It,harvey forstman,17-10-2021 00:00,140000
+113,Louis,Pearson,Operations,louis pearson,22-01-2019 00:00,62000
+132,Laura,Forstman,R&D,laura forstman,26-09-2016 00:00,82000
+156,Sheila,Jackson,Other,sheila jackson,19-09-2019 00:00,93000
+189,Charles,Martin,Finance,charles martin,,133000
+127,Daniel,Forstman,Hr,daniel forstman,09-06-2015 00:00,138000
+143,Sara,Smith,Finance,sara smith,23-10-2016 00:00,101000
+170,Oliver,Harris,Sales,oliver harris,12-11-2018 00:00,141000
+116,John,Thomas,Finance,john thomas,03-10-2022 00:00,59000
+141,Julia,Davis,Finance,julia davis,13-10-2021 00:00,136000
+124,Grace,Jane,Sales,grace jane,15-09-2018 00:00,110000
+110,Grace,Paulsen,R&D,grace paulsen,04-04-2019 00:00,126000
+173,Frank,Davis,Sales,frank davis,10-12-2015 00:00,99000
+112,Harvey,Robinson,R&D,harvey robinson,09-06-2019 00:00,103000
+148,Julia,Robinson,Legal,julia robinson,28-12-2017 00:00,145000
+186,Sheila,Wheeler,Marketing,sheila wheeler,,72000
+129,Alex,Forstman,R&D,alex forstman,04-03-2021 00:00,51000
+194,John,Jackson,Sales,john jackson,12-08-2015 00:00,82000
+106,Charles,Davis,Hr,charles davis,03-11-2021 00:00,125000
+167,Charles,Ross,Finance,charles ross,10-07-2018 00:00,114000
+166,Benjamin,Forstman,Finance,benjamin forstman,11-05-2020 00:00,125000
+136,Daniel,Thomas,Legal,daniel thomas,06-07-2022 00:00,85000
+117,Donna,Forstman,Finance,donna forstman,12-08-2020 00:00,109000
+150,Laura,Garcia,Sales,laura garcia,27-05-2022 00:00,96000
+135,Nina,Pearson,Legal,nina pearson,29-06-2021 00:00,50000
+108,Mike,Garcia,Operations,mike garcia,02-12-2018 00:00,126000
+144,Daniel,Davis,Hr,daniel davis,01-10-2022 00:00,114000
+128,Nina,Zane,Legal,nina zane,01-05-2021 00:00,62000
+120,Sara,Pearson,R&D,sara pearson,11-10-2015 00:00,143000
+182,Claire,Anderson,Operations,claire anderson,30-06-2020 00:00,100000
+126,Benjamin,Martin,Hr,benjamin martin,02-02-2016 00:00,100000
+163,Nina,Harris,Legal,nina harris,21-12-2016 00:00,111000
+114,Mike,Harris,It,mike harris,14-01-2022 00:00,146000
+125,Hannah,Hayes,Other,hannah hayes,27-05-2021 00:00,105000
+104,Nina,Smith,Finance,nina smith,28-09-2016 00:00,142000
+118,Nina,Anderson,Legal,nina anderson,,142000
+139,Robert,Bennett,Finance,robert bennett,10-11-2021 00:00,112000
+109,Donna,Zane,Finance,donna zane,14-11-2022 00:00,127000
+179,Kevin,Thompson,Hr,kevin thompson,28-06-2021 00:00,84000
+107,Nina,Zane,Other,nina zane,01-06-2022 00:00,143000
+165,Frank,Wheeler,Operations,frank wheeler,,65000
+137,Sheila,Litt,Marketing,sheila litt,25-10-2015 00:00,103000
+190,Hannah,Wilson,Marketing,hannah wilson,09-10-2019 00:00,115000
+157,Oliver,Paulsen,Sales,oliver paulsen,,71000
+162,Sheila,Hayes,It,sheila hayes,11-05-2022 00:00,45000
+155,Paula,Wheeler,Finance,paula wheeler,09-08-2020 00:00,130000
+144,Daniel,Davis,Hr,daniel davis,01-10-2022 00:00,114000
+151,Nina,Ross,Operations,nina ross,15-08-2022 00:00,87000
+168,Louis,Pearson,Legal,louis pearson,,97000
+147,Kevin,Davis,Legal,kevin davis,27-10-2016 00:00,97000
+169,Charles,Hardman,Operations,charles hardman,15-05-2019 00:00,134000
+162,Sheila,Hayes,It,sheila hayes,11-05-2022 00:00,45000
+107,Nina,Zane,Other,nina zane,01-06-2022 00:00,143000
+180,Paula,Sazs,Legal,paula sazs,22-02-2016 00:00,143000
+142,Hannah,Anderson,Sales,hannah anderson,14-01-2016 00:00,99000
+159,Laura,Martinez,Other,laura martinez,12-10-2020 00:00,126000
+149,Sheila,Garcia,Legal,sheila garcia,,89000
+133,Sara,Wilson,Sales,sara wilson,,109000
+158,Emma,Taylor,R&D,emma taylor,17-12-2019 00:00,72000
+176,David,Jane,Hr,david jane,23-04-2022 00:00,141000
+133,Sara,Wilson,Sales,sara wilson,,109000
+195,Louis,Anderson,Sales,louis anderson,06-09-2021 00:00,105000
+160,Mike,Thompson,Legal,mike thompson,26-08-2016 00:00,50000
+164,David,Pearson,It,david pearson,18-03-2020 00:00,112000
+185,Jessica,Thompson,R&D,jessica thompson,,117000
+138,Emma,Zane,Finance,emma zane,,53000
+130,David,Thompson,Legal,david thompson,11-12-2016 00:00,107000
+102,Oliver,Davis,Sales,oliver davis,19-01-2016 00:00,74000
+153,Julia,Martin,Hr,julia martin,27-04-2019 00:00,69000
+122,Harvey,Jackson,Marketing,harvey jackson,30-11-2019 00:00,102000
+103,John,Davis,Operations,john davis,,120000
+124,Grace,Jane,Sales,grace jane,15-09-2018 00:00,110000
+188,Mike,Pearson,Legal,mike pearson,,127000
+192,Rachel,White,Legal,rachel white,06-06-2020 00:00,137000
+175,Kevin,Martinez,Operations,kevin martinez,30-10-2017 00:00,105000
+187,Alex,Wheeler,Finance,alex wheeler,26-03-2021 00:00,111000
+183,Grace,Martinez,It,grace martinez,07-11-2020 00:00,79000
+121,Hannah,Hayes,Operations,hannah hayes,17-05-2017 00:00,141000
+161,Benjamin,Taylor,Operations,benjamin taylor,23-01-2022 00:00,69000
+172,John,Sazs,Operations,john sazs,14-02-2023 00:00,104000
+115,Frank,Ross,R&D,frank ross,12-07-2020 00:00,115000
+193,Kevin,Miller,Legal,kevin miller,28-04-2018 00:00,91000
+152,Rachel,Martinez,Finance,rachel martinez,06-06-2015 00:00,121000
