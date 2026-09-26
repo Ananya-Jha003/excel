@@ -76,7 +76,57 @@ FROM customers
 WHERE country='INDIA' AND amount_spend>1500;
 */
 
+/*
+SELECT *
+FROM customers
+WHERE country = 'INDIA' OR country = 'USA';
+*/
 
+/*
+SELECT *
+FROM customers
+WHERE (country = 'INDIA' OR country = 'USA')
+AND amount_spend>1500;
+*/
 
+/*
+SELECT *
+FROM customers
+WHERE NOT country = 'INDIA';
+*/
 
+/*
+SELECT *
+FROM customers
+ORDER BY amount_spend ASC;
+*/
 
+/*
+SELECT *
+FROM customers
+ORDER BY amount_spend DESC;
+*/
+
+/*
+SELECT *
+FROM customers
+ORDER BY age ASC;
+*/
+
+/*
+SELECT *
+FROM customers
+WHERE age BETWEEN 25 AND 40
+AND amount_spend > 1500
+AND country = 'INDIA' OR country = 'USA'
+ORDER BY amount_spend DESC;
+*/
+
+/*
+SELECT *
+FROM customers
+WHERE age>=30
+AND amount_spend >=1000
+AND NOT country = 'INDIA'
+ORDER BY amount_spend DESC;
+*/
