@@ -55,58 +55,114 @@ VALUES
 
 
 
-
-
-
-
-
-/*
-SELECT
-    COUNT(*) AS total_transactions,
-    SUM(quantity) AS total_quantity_sold,
-    SUM(quantity * unit_price) AS total_sales_value,
-    AVG(unit_price) AS average_unit_price,
-    MAX(unit_price) AS highest_unit_price,
-    MIN(unit_price) AS lowest_unit_price
-FROM sales_transactions;
-*/
-
-
-
-
 /*
 SELECT 
-    category,
-    COUNT(*) AS number_of_transactions,
-    SUM(quantity) AS total_quantity_sold,
-    SUM(quantity * unit_price) AS total_sales_value,
-    AVG(unit_price) AS average_unit_price
-FROM sales_transactions
-GROUP BY category
-ORDER BY total_sales_value DESC;
+Count(*) as total_transactions,
+sum(quantity) as total_quantity_sold,
+sum(quantity * unit_price) as total_sales_valued,
+avg(unit_price) as average_unit_price,
+max(unit_price) as highest_unit_price,
+min(unit_price) as lowest_unit_price
+from sales_transactions;
 */
 
 /*
-SELECT
-    salesperson,
-    COUNT(*) AS number_of_transactions,
-    SUM(quantity) AS total_quantity_sold,
-    SUM(quantity * unit_price) AS total_sales_value,
-    AVG(unit_price) AS average_unit_price
-FROM sales_transactions
+SELECT category,
+COUNT(*) number_of_transaction,
+sum(quantity) as total_quantity_sold,
+sum(quantity*unit_price) as total_sales_values,
+avg(unit_price) as avg_unit_price
+from sales_transactions
+GROUP BY category
+ORDER BY total_sales_values DESC;
+*/
+
+/*
+SELECT salesperson,
+COUNT(*) as number_transactions,
+sum(quantity) as total_quanity_sold,
+sum(quantity*unit_price) as total_sales_value,
+avg(unit_price) as average_unit_price
+from sales_transactions
 GROUP BY salesperson
 ORDER BY total_sales_value DESC;
 */
 
 /*
-SELECT
-    city,
-    COUNT(*) AS number_of_transactions,
-    SUM(quantity) AS total_quantity_sold,
-    SUM(quantity * unit_price) AS total_sales_value,
-    AVG(unit_price) AS average_unit_price
-FROM sales_transactions
+SELECT city,
+COUNT(*) as number_transactions,
+sum(quantity) as total_quantity_sold,
+sum(quantity*unit_price) as total_sales_value,
+avg(unit_price) as avg_unit_price
+from sales_transactions
 GROUP BY city
 ORDER BY total_sales_value DESC;
 */
+
+/*
+SELECT customer_type,
+count(*) as number_transactions,
+sum(quantity) as total_quanity_sold,
+sum(quantity*unit_price) as total_sales_value,
+avg(unit_price) as avg_unit_price
+from sales_transactions
+GROUP BY customer_type
+ORDER BY total_sales_value DESC;
+*/
+
+/*
+SELECT payment_mode,
+count(*) as number_transactions,
+sum(quantity) as total_quanity_sold,
+sum(quantity*unit_price) as total_sales_value,
+avg(unit_price) as avg_unit_price
+from sales_transactions
+GROUP BY payment_mode
+ORDER BY total_sales_value DESC;
+*/
+
+/*
+SELECT category,
+sum(quantity) as total_quantity_sold,
+sum(quantity*unit_price) as total_sales_value,
+avg(unit_price) as avg_unit_price
+from sales_transactions
+GROUP BY category
+having sum(quantity*unit_price) >300000;
+*/
+
+/*
+SELECT salesperson,
+sum(quantity) as total_quantity_sold,
+sum(quantity*unit_price) as total_sales_value,
+avg(unit_price) as avg_unit_price
+from sales_transactions
+GROUP BY salesperson
+having sum(quantity*unit_price) >500000;
+*/
+
+/*
+SELECT product_name,
+sum(quantity) as total_quantity_sold,
+sum(quantity*unit_price) as total_sales_value,
+avg(unit_price) as avg_unit_price
+from sales_transactions
+GROUP BY product_name
+having sum(quantity)>5;
+*/
+
+/*
+SELECT category,
+count(*) as number_transaction,
+sum(quantity) as total_quantity_sold,
+sum(quantity*unit_price) as total_sales_value,
+avg(unit_price) as avg_unit_price
+from sales_transactions
+WHERE customer_type = 'PREMIUM'
+GROUP BY category
+having sum(quantity*unit_price)>20000;
+*/
+
+SELECT salesperson,
+
 
