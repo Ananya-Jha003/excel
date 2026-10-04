@@ -1,6 +1,6 @@
-CREATE database sales_transactions;
+CREATE database saless_transactions;
 
-use sales_transactions;
+use saless_transactions;
 
 CREATE TABLE sales_transactions (
     transaction_id INT PRIMARY KEY,
@@ -163,6 +163,75 @@ GROUP BY category
 having sum(quantity*unit_price)>20000;
 */
 
+/*
 SELECT salesperson,
+COUNT(*) AS NUMBER_TRANSACTION,
+SUM(quantity) as total_quantity_sold,
+sum(quantity*unit_price) as total_sales_value
+from sales_transactions
+WHERE customer_type = 'VIP'
+GROUP BY salesperson
+having sum(quantity*unit_price)>30000;
+*/
+/*
+SELECT city,
+COUNT(*) AS number_transaction,
+sum(quantity) as total_quantity_sold,
+sum(quantity*unit_price) as total_sales_value
+from sales_transactions
+WHERE payment_mode = 'online' or payment_mode = 'card'
+GROUP BY city
+HAVING sum(quantity*unit_price)>30000;
+*/
 
+/*
+SELECT discount_percent,
+COUNT(*) AS number_transaction,
+SUM(quantity) as total_quantity_sold,
+SUM(quantity*unit_price) as total_sales_value,
+AVG(unit_price) as avg_unit_price
+from sales_transactions
+GROUP BY discount_percent
+HAVING COUNT (*) >= 2;
+*/
+
+/*
+SELECT salesperson,
+COUNT(*) AS number_transaction,
+SUM(quantity) as total_quantity_sold,
+SUM(quantity*unit_price) as total_sales_value,
+AVG(unit_price) as avg_unit_price,
+MAX(unit_price) as highest_unit_price
+from sales_transactions
+WHERE category ='ELECTRONICS'
+GROUP BY salesperson
+HAVING SUM(quantity*unit_price) >25000;
+*/
+
+/*
+SELECT city,
+       COUNT(*) AS number_transaction,
+       SUM(quantity) AS total_quantity_sold,
+       SUM(quantity * unit_price) AS total_sales_value,
+       AVG(unit_price) AS avg_unit_price
+FROM sales_transactions
+WHERE category = 'Furniture'
+  AND quantity > 2
+GROUP BY city
+HAVING SUM(quantity * unit_price) > 50000;
+*/
+
+/*
+SELECT salesperson,
+       COUNT(*) AS number_transaction,
+       SUM(quantity) AS total_quantity_sold,
+       SUM(quantity * unit_price) AS total_sales_value,
+       AVG(unit_price) AS avg_unit_price
+FROM sales_transactions
+WHERE category = 'Appliances'
+  AND payment_mode <> 'Cash'
+  AND discount_percent < 20
+GROUP BY salesperson
+HAVING SUM(quantity * unit_price) > 100000;
+*/
 
